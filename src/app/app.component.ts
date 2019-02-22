@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-basico';
+  descripcion='propiedad del componente nueva.Se agrega en app.components.ts y esta variable se mostrara en la vista app.component.html con {{}}';
 }
