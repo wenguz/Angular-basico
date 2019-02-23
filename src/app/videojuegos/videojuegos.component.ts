@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 	´
 })
 export class VideojuegosComponent{
-	
+	public nombre='Videojuegos 2019';
 }
