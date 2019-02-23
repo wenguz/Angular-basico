@@ -6,7 +6,8 @@ import { VideojuegosComponent } from './videojuegos/videojuegos.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VideojuegosComponent
   ],
   imports: [
     BrowserModule
