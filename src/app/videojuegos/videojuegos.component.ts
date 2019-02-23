@@ -5,6 +5,10 @@ import { Component } from '@angular/core';
 	template:`
 		<h2>Componente de {{nombre}}</h2>
 		<h3 *ngIf="mostrar_retor!=true">El mejor juego es: {{mejor_juego}}</h3>
+		<h3 [style.background]="yellow"
+			*ngIf="mostrar_retor">
+			El mejor juego es: {{mejor_juego_retro}}
+		</h3>
 	`
 })
 export class VideojuegosComponent{
