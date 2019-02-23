@@ -14,13 +14,13 @@ export class VideojuegosComponent{
 
 	public year:number;
 
-	public videojuegos:Array<string>
+	public videojuegos:Array<string>;
 
 	constructor(){
 		this.nombre='Videojuegos 2019';
 		this.mejor_juego='GTA 5';
 		this.mejor_juego_retro = 'Super Mario 64';
-		this.mostrar_retor=true;
+		this.mostrar_retro=true;
 		this.color="red";
 		this.year=2018;
 		this.videojuegos= [
