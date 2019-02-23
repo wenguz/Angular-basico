@@ -5,14 +5,16 @@ import { Component } from '@angular/core';
 	templateUrl:'./videojuegos.component.html'
 })
 export class VideojuegosComponent{
-	public nombre='Videojuegos 2019';
-	public mejor_juego='GTA 5';
+	public nombre:string ='Videojuegos 2019';
+	public mejor_juego:string ='GTA 5';
 
-	public mejor_juego_retro = 'Super Mario 64';
-	public mostrar_retro = true;
-	public color="red";
+	public mejor_juego_retro:string = 'Super Mario 64';
+	public mostrar_retro:boolean = true;
+	public color:string ="red";
 
-	public videojuegos = [
+	public year:number=2018;
+
+	public videojuegos:Array<string> = [
 		'Los simpson hit and run',
 		'Assins creed',
 		'GTA 5',
