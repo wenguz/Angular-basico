@@ -18,4 +18,12 @@ export class VideojuegosComponent{
 	public mejor_juego_retro = 'Super Mario 64';
 	public mostrar_retro = true;
 	public color="red";
+
+	public videojuegos = [
+		'Los simpson hit and run',
+		'Assins creed',
+		'GTA 5',
+		'Call of Duty',
+		'Tekken'
+	];
 }
