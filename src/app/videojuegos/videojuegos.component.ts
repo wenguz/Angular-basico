@@ -10,4 +10,7 @@ import { Component } from '@angular/core';
 export class VideojuegosComponent{
 	public nombre='Videojuegos 2019';
 	public mejor_juego='GTA 5';
+	
+	public mejor_juego_reto='Super Mario 64';
+	public mostrar_retro=true;
 }
