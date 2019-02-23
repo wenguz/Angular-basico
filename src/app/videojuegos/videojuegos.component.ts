@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
 
 		<h2>Listado de videojuegos</h2>
 		<ul>
-			<li>{{videojuegos[3]}}</li>
+			<li *ngFor="let game of videojuegos">{{game}}</li>
 		</ul>
 	`
 })
