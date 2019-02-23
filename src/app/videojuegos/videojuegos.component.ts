@@ -6,3 +6,6 @@ import { Component } from '@angular/core';
 		<h2>Componente de videojuegos</h2>
 	´
 })
+export class VideojuegosComponent{
+	
+}
