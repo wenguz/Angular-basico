@@ -9,6 +9,11 @@ import { Component } from '@angular/core';
 			*ngIf="mostrar_retro">
 			El juego retro: {{mejor_juego_retro}}
 		</h3>
+
+		<h2>Listado de videojuegos</h2>
+		<ul>
+			<li>{{videojuegos[3]}}</li>
+		</ul>
 	`
 })
 export class VideojuegosComponent{
