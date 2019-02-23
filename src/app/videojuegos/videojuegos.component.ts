@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
 	template:`
 		<h2>Componente de {{nombre}}</h2>
 		<h3 *ngIf="mostrar_retro != true">El mejor juego es: {{mejor_juego}}</h3>
-		<h3 [style.background]="'yellow'"
+		<h3 [style.background]="color"
 			*ngIf="mostrar_retro">
 			El juego retro: {{mejor_juego_retro}}
 		</h3>
@@ -17,4 +17,5 @@ export class VideojuegosComponent{
 
 	public mejor_juego_retro = 'Super Mario 64';
 	public mostrar_retro = true;
+	public color="red";
 }
