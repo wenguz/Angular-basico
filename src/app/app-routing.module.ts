@@ -4,11 +4,13 @@ import {Routes,RouterModule} from '@angular/router';
 import {AgregarUsuarioComponent} from './admin/agregar-usuario/agregar-usuario.component';
 import {ListarUsuarioComponent} from './admin/listar-usuario/listar-usuario.component';
 import {ModificarUsuarioComponent} from './admin/modificar-usuario/modificar-usuario.component';
+import {VerPerfilComponent} from './admin/ver-perfil/ver-perfil.component';
 
 const app_routes:Routes=[
 	{path:'agregar-usuario',component:AgregarUsuarioComponent},
 	{path:'listar-usuario',component:ListarUsuarioComponent},
 	{path:'modificar-usuario',component:ModificarUsuarioComponent},
+	{path:'ver-perfil',component:VerPerfilComponent},
 	{path:'**',pathMatch:'full', redirectTo:''}
 ];
 
