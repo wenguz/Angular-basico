@@ -6,6 +6,7 @@ import { VideojuegosComponent } from './videojuegos/videojuegos.component';
 import { HeaderComponent } from './compartido/header/header.component';
 import { MenuComponent } from './compartido/menu/menu.component';
 import { AgregarUsuarioComponent } from './admin/agregar-usuario/agregar-usuario.component';
+import { MainHeaderComponent } from './compartido/main-header/main-header.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { AgregarUsuarioComponent } from './admin/agregar-usuario/agregar-usuario
     HeaderComponent,
     MenuComponent,
     AgregarUsuarioComponent,
+    MainHeaderComponent,
     
   ],
   imports: [
