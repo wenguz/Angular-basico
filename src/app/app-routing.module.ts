@@ -7,6 +7,7 @@ import {ModificarUsuarioComponent} from './admin/modificar-usuario/modificar-usu
 import {VerPerfilComponent} from './admin/ver-perfil/ver-perfil.component';
 import {InicioComponent} from './admin/inicio/inicio.component';
 import {RepAtencionComponent} from './admin/rep-atencion/rep-atencion.component';
+import {RepDocumentoComponent} from './admin/rep-documento/rep-documento.component';
 
 const app_routes:Routes=[
 	{path:'agregar-usuario',component:AgregarUsuarioComponent},
@@ -15,6 +16,7 @@ const app_routes:Routes=[
 	{path:'ver-perfil',component:VerPerfilComponent},
 	{path:'inicio-admin',component:InicioComponent},
 	{path:'rep-atencion',component:RepAtencionComponent},
+	{path:'rep-documento',component:RepDocumentoComponent},
 	{path:'**',pathMatch:'full', redirectTo:''}
 ];
 

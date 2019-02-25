@@ -15,6 +15,7 @@ import { ModificarUsuarioComponent } from './admin/modificar-usuario/modificar-u
 import { VerPerfilComponent } from './admin/ver-perfil/ver-perfil.component';
 import { InicioComponent } from './admin/inicio/inicio.component';
 import { RepAtencionComponent } from './admin/rep-atencion/rep-atencion.component';
+import { RepDocumentoComponent } from './admin/rep-documento/rep-documento.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { RepAtencionComponent } from './admin/rep-atencion/rep-atencion.componen
     VerPerfilComponent,
     InicioComponent,
     RepAtencionComponent,
+    RepDocumentoComponent,
   ],
   imports: [
     BrowserModule,
