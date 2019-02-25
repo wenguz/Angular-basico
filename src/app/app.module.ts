@@ -20,6 +20,7 @@ import { RepEdadComponent } from './admin/rep-edad/rep-edad.component';
 import { RepOcupacionComponent } from './admin/rep-ocupacion/rep-ocupacion.component';
 import { RepOrigenComponent } from './admin/rep-origen/rep-origen.component';
 import { RepProblematicaComponent } from './admin/rep-problematica/rep-problematica.component';
+import { EncabezadoRepComponent } from './admin/encabezado-rep/encabezado-rep.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { RepProblematicaComponent } from './admin/rep-problematica/rep-problemat
     RepOcupacionComponent,
     RepOrigenComponent,
     RepProblematicaComponent,
+    EncabezadoRepComponent,
   ],
   imports: [
     BrowserModule,
