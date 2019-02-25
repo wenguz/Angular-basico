@@ -11,6 +11,7 @@ import {RepDocumentoComponent} from './admin/rep-documento/rep-documento.compone
 import {RepEdadComponent} from './admin/rep-edad/rep-edad.component';
 import { RepOcupacionComponent } from './admin/rep-ocupacion/rep-ocupacion.component';
 import { RepOrigenComponent  } from './admin/rep-origen/rep-origen.component';
+import { RepProblematicaComponent } from './admin/rep-problematica/rep-problematica.component';
 
 const app_routes:Routes=[
 	{path:'agregar-usuario',component:AgregarUsuarioComponent},
@@ -23,6 +24,7 @@ const app_routes:Routes=[
 	{path:'rep-edad',component:RepEdadComponent},
 	{path:'rep-ocupacion',component:RepOcupacionComponent},
 	{path:'rep-origen',component:RepOrigenComponent},
+	{path:'rep-problematica',component:RepProblematicaComponent},
 	{path:'**',pathMatch:'full', redirectTo:''}
 ];
 
