@@ -13,6 +13,7 @@ import { MainHeaderComponent } from './compartido/main-header/main-header.compon
 import { ListarUsuarioComponent } from './admin/listar-usuario/listar-usuario.component';
 import { ModificarUsuarioComponent } from './admin/modificar-usuario/modificar-usuario.component';
 import { VerPerfilComponent } from './admin/ver-perfil/ver-perfil.component';
+import { InicioComponent } from './admin/inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { VerPerfilComponent } from './admin/ver-perfil/ver-perfil.component';
     ListarUsuarioComponent,
     ModificarUsuarioComponent,
     VerPerfilComponent,
+    InicioComponent,
   ],
   imports: [
     BrowserModule,
