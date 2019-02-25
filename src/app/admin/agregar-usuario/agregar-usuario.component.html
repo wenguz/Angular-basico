@@ -1,3 +1,60 @@
-<p>
-  agregar-usuario works!
-</p>
+<!--Inicio Formulario Registro usuario-->
+<div class="col-md-12 panel-body" style="padding-bottom:15px;">
+    <form class="cmxform" id="signupForm" method="get" action="">
+        <div class="col-md-6">
+            <div class="form-group form-animate-text" style="margin-top:10px !important;">
+                <input type="text" class="form-text" id="validate_firstname" name="validate_firstname" required>
+                <span class="bar"></span>
+                <label>Nombres</label>
+            </div>
+            <div class="form-group form-animate-text" style="margin-top:10px !important;">
+                <input type="text" class="form-text" id="validate_lastname" name="validate_lastname" required>
+                <span class="bar"></span>
+                <label>Apellidos</label>
+            </div>
+            <div class="form-group form-animate-text" style="margin-top:10px !important;">
+                <input type="text" class="form-text" id="validate_ci" name="validate_ci" required>
+                <span class="bar"></span>
+	            <label>Carnet de Identidad</label>
+            </div>
+            <div class="form-group form-animate-text" style="margin-top:10px !important;">
+                <input type="text" class="form-text" id="validate_fono" name="validate_fono" required>
+                <span class="bar"></span>
+                <label>Telefono</label>
+            </div>
+            <div class="form-group form-animate-text" style="margin-top:10px !important;">
+                <label>Foto de Perfil</label>
+                <!--Hay mas formatos multimedia en la plantilla view-mail.html-->
+                <div class="form-group note-group-select-from-files">
+                    <input class="note-image-input form-control" type="file" name="files" accept="image/*" multiple="multiple">
+                </div>    
+            </div>  
+        </div>
+		<div class="col-md-6">
+            <div class="form-group form-animate-text" style="margin-top:10px !important;">
+                <input type="text" class="form-text" id="validate_username" name="validate_username" required>
+                <span class="bar"></span>
+                <label>Usuario</label>
+            </div>
+			<div class="form-group form-animate-text" style="margin-top:10px !important;">
+                <input type="password" class="form-text" id="validate_password" name="validate_password" required>
+                <span class="bar"></span>
+                <label>Contraseña</label>
+            </div>
+			<div class="form-group form-animate-text" style="margin-top:10px !important;">
+                <input type="password" class="form-text" id="validate_confirm_password" name="validate_confirm_password" required>
+                <span class="bar"></span>
+                <label>Confirme Contraseña</label>
+            </div>
+			<div class="form-group form-animate-text" style="margin-top:10px !important;">
+                <input type="text" class="form-text" id="validate_email" name="validate_email" required>
+                <span class="bar"></span>
+                <label>Email</label>
+            </div>
+        </div> 
+		<div class="col-md-12">                                          
+            <input class="submit btn btn-danger" type="submit" value="Submit">
+        </div>
+	</form>
+</div>
+<!---Fin formulario Registro usurio--> 
