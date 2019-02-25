@@ -12,6 +12,7 @@ import { AgregarUsuarioComponent } from './admin/agregar-usuario/agregar-usuario
 import { MainHeaderComponent } from './compartido/main-header/main-header.component';
 import { ListarUsuarioComponent } from './admin/listar-usuario/listar-usuario.component';
 import { ModificarUsuarioComponent } from './admin/modificar-usuario/modificar-usuario.component';
+import { IndexAdminComponent } from './admin/index-admin/index-admin.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ModificarUsuarioComponent } from './admin/modificar-usuario/modificar-u
     MainHeaderComponent,
     ListarUsuarioComponent,
     ModificarUsuarioComponent,
+    IndexAdminComponent,
   ],
   imports: [
     BrowserModule,
