@@ -18,6 +18,7 @@ import { RepAtencionComponent } from './admin/rep-atencion/rep-atencion.componen
 import { RepDocumentoComponent } from './admin/rep-documento/rep-documento.component';
 import { RepEdadComponent } from './admin/rep-edad/rep-edad.component';
 import { RepOcupacionComponent } from './admin/rep-ocupacion/rep-ocupacion.component';
+import { RepOrigenComponent } from './admin/rep-origen/rep-origen.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { RepOcupacionComponent } from './admin/rep-ocupacion/rep-ocupacion.compo
     RepDocumentoComponent,
     RepEdadComponent,
     RepOcupacionComponent,
+    RepOrigenComponent,
   ],
   imports: [
     BrowserModule,
