@@ -5,7 +5,6 @@ import {AgregarUsuarioComponent} from './admin/agregar-usuario/agregar-usuario.c
 import {ListarUsuarioComponent} from './admin/listar-usuario/listar-usuario.component';
 import {ModificarUsuarioComponent} from './admin/modificar-usuario/modificar-usuario.component';
 
-
 const app_routes:Routes=[
 	{path:'agregar-usuario',component:AgregarUsuarioComponent},
 	{path:'listar-usuario',component:ListarUsuarioComponent},
