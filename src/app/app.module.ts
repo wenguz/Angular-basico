@@ -11,7 +11,8 @@ import { MenuComponent } from './compartido/menu/menu.component';
     AppComponent,
     VideojuegosComponent,
     HeaderComponent,
-    MenuComponent
+    MenuComponent,
+    
   ],
   imports: [
     BrowserModule
