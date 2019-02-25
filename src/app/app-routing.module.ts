@@ -9,6 +9,8 @@ import {InicioComponent} from './admin/inicio/inicio.component';
 import {RepAtencionComponent} from './admin/rep-atencion/rep-atencion.component';
 import {RepDocumentoComponent} from './admin/rep-documento/rep-documento.component';
 import {RepEdadComponent} from './admin/rep-edad/rep-edad.component';
+import { RepOcupacionComponent } from './admin/rep-ocupacion/rep-ocupacion.component';
+
 const app_routes:Routes=[
 	{path:'agregar-usuario',component:AgregarUsuarioComponent},
 	{path:'listar-usuario',component:ListarUsuarioComponent},
@@ -18,6 +20,7 @@ const app_routes:Routes=[
 	{path:'rep-atencion',component:RepAtencionComponent},
 	{path:'rep-documento',component:RepDocumentoComponent},
 	{path:'rep-edad',component:RepEdadComponent},
+	{path:'rep-ocupacion',component:RepOcupacionComponent},
 	{path:'**',pathMatch:'full', redirectTo:''}
 ];
 
