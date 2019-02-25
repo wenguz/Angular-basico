@@ -6,6 +6,7 @@ import {ListarUsuarioComponent} from './admin/listar-usuario/listar-usuario.comp
 import {ModificarUsuarioComponent} from './admin/modificar-usuario/modificar-usuario.component';
 import {VerPerfilComponent} from './admin/ver-perfil/ver-perfil.component';
 import {InicioComponent} from './admin/inicio/inicio.component';
+import {RepAtencionComponent} from './admin/rep-atencion/rep-atencion.component';
 
 const app_routes:Routes=[
 	{path:'agregar-usuario',component:AgregarUsuarioComponent},
@@ -13,6 +14,7 @@ const app_routes:Routes=[
 	{path:'modificar-usuario',component:ModificarUsuarioComponent},
 	{path:'ver-perfil',component:VerPerfilComponent},
 	{path:'inicio-admin',component:InicioComponent},
+	{path:'rep-atencion',component:RepAtencionComponent},
 	{path:'**',pathMatch:'full', redirectTo:''}
 ];
 
